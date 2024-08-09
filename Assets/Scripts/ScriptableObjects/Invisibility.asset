@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748a3aff7bf6b0a4a9f729a1438d7eeb, type: 3}
+  m_Name: Invisibility
+  m_EditorClassIdentifier: 
+  title: Invisibility
+  index: 3
+  level: 1
+  durationOrStack:
+  - 9
+  - 11
+  - 13
+  - 15
+  cost: 5e0100005802000052030000e8030000
+  sprite: {fileID: 21300000, guid: 0d4fe4166edc4e4498c27bb2372c0b63, type: 3}

@@ -1,0 +1,56 @@
+{
+    "name": "PlayerAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "8c011829-9533-4952-ad47-f582f0d04d04",
+            "actions": [
+                {
+                    "name": "playerAction",
+                    "type": "PassThrough",
+                    "id": "77ad5bc1-430c-4aa9-936d-50dbc33ec2ba",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "71dee686-274c-40a6-825d-4190680941e6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerAction",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "positive",
+                    "id": "8bbea52b-3836-4463-9319-9841b7094411",
+                    "path": "<Touchscreen>/primaryTouch/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "ae7b04bf-a139-42e4-a915-8e07a5a66089",
+                    "path": "<Touchscreen>/primaryTouch/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "playerAction",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
